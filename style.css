@@ -1,0 +1,87 @@
+body {
+    background-repeat: repeat-y;
+    padding-left: 250px;
+    font-family: sans-serif;
+    font-size: 18px;
+    background-image: url('cimer.png');
+}
+
+h1, h2 {
+    padding: 10px 0 10px 10px;
+    box-shadow: 5px 5px 4px gray;
+    width: 800px;
+    font-family: monospace;
+    background-color: red;
+    color: white;
+}
+
+#keret {
+    padding: 10px;
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+    border-radius: 12px;
+    text-align: justify;
+    width: 800px;
+}
+
+h1 {  
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    color: #615a5a;
+}
+
+p {
+    text-align: justify;
+    line-height: 130%;
+}
+
+div.keret {
+    width: 800px;
+    border-top: 6px solid red;
+    border-bottom: 6px solid red;
+    border-radius: 15px;
+    text-align: center;
+}
+
+img {
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 4px gray;
+    max-width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+ul {
+    padding-left: 60px;
+}
+
+ul li {
+    text-align: left;  
+    padding-left: 10px;
+    color: #291fae;
+    list-style-image: url('icon.png');
+    font-weight: bold;
+}
+
+table {
+    width: 600px;
+    text-align: center;
+}
+
+table tr {
+    height: 50px;
+}
+
+table tr.sor {
+    font-weight: bold;
+    color: red;
+    text-transform: uppercase;
+}
